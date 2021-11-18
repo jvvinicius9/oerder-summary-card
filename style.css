@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/*     RESET / ROOT     */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+/*         BASE        */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: url(images/pattern-background-desktop.svg) var(--pale-blue)
+    no-repeat;
+}
+
+main {
+  max-width: 440px;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.content {
+  margin: 0;
+  padding: 2.5rem;
+}
+
+/*          TEXT STYLE         */
+h1 {
+  margin-bottom: 1rem;
+  color: var(--dark-blue);
+}
+
+p {
+  color: var(--desaturated-blue);
+  font-size: 1rem;
+}
+
+/*        PLAN (PLANO)         */
+.plan > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.plan h4 {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--very-pale-blue);
+  border-radius: 0.5rem;
+  padding: 1.5rem 1rem;
+
+  margin: 1.5rem auto;
+  width: 100%;
+}
+
+.plan .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.plan a {
+  color: var(--bright-blue);
+  margin-left: auto;
+
+  text-decoration: none;
+  transition: 0.3s;
+  border-bottom: 2px solid var(--bright-blue);
+}
+
+.plan a:hover {
+  color: var(--desaturated-blue);
+  border-color: transparent;
+}
+
+/*       BUTTON STYLE      */
+.button {
+  width: 100%;
+  background-color: var(--bright-blue);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--desaturated-blue);
+}
+
+/*      CANCEL ORDER LINK      */
+.cancel-order {
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 900;
+  color: var(--desaturated-blue);
+}
+
+.cancel-order:hover {
+  color: var(--dark-blue);
+}
+
+/*      RESPONSIVE     */
+
+@media (max-width: 480px) {
+  main {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .content {
+    padding: 1.5rem;
+  }
+}

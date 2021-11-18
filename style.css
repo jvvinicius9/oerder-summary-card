@@ -68,9 +68,10 @@ p {
   height: 3rem;
 }
 
-.plan h4 {
+.plan h2 {
   color: var(--dark-blue);
   font-weight: 900;
+  font-size: 1rem;
 }
 
 .plan {
@@ -118,6 +119,7 @@ p {
   display: inline-block;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
+  font-weight: 900;
 
   transition: 0.3s;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 30px 25px -20px;

@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot.jpeg)
+![](./design/screenshot.jpg)
 
 ## My process
 
@@ -35,6 +35,6 @@ Users should be able to:
 
 ## Author
 
-- Linkedin - [@joão-vinícius-siqueira-474a6716b](https://linkedin.com/in/joão-vinícius-siqueira-474a6716b)
+- Linkedin - [João Vinicius](https://linkedin.com/in/joão-vinícius-siqueira-474a6716b)
 - Instagram - [@joaovinicius231](https://www.twitter.com/yourusername)
 - Facebook - [@joao.vinicius.7771586](https://facebook.com/yourusername)
